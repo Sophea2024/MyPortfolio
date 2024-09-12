@@ -1,0 +1,22 @@
+.m-footer-main {
+  /* display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: #fff; */
+  background-color: rgba($color-6, 0.8);
+  padding: 5px;
+  
+  a{
+    color:black;
+    font-weight:normal;
+    display: inline-block;
+  i{
+      color: blue;
+      background-color: white;
+      border-radius: 25%;
+      left: 30%;
+      border: 1px solid gray;
+      padding: 9px;
+  }
+  }
+}
