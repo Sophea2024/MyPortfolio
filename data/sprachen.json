@@ -1,3 +1,5 @@
 [
-  {}
+  {"name":"Deutsch", "niveau": "Gut in Wort und Schrift"},
+  {"name":"Englisch","niveau": "Gut in Wort und Schrift"},
+  {"name":"Khmer/Kambodschnisch","niveau": "Mutter Sprache"}
 ]
