@@ -2,8 +2,7 @@
 
 import Erfahrungen from './modules/Erfahrungen';
 import Sprachen from './modules/Sprachen';
-//import user from '../../../data/erfahrungen.json';
-//console.log(user);
+import Clickme from './modules/startseite';
 
 (() => {
   const DOM = {};
@@ -18,11 +17,12 @@ import Sprachen from './modules/Sprachen';
       case 'werdegang/erfahrung':
         Erfahrungen();
         break;
-      case 'werdegang/sprachen':
+      case 'faehigkeit/sprachen':
         Sprachen();
         break;
       default:
         console.log('main JS');
+        Clickme();
     }
   };
 
