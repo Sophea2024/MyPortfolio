@@ -1,6 +1,7 @@
 /* Menu */
 .m-menu-main {
-  background-color: $color-6;
+  background-color: $color-7;
+  margin-top: 10px;
   ul {
     padding: 0;
     margin: 0;
@@ -26,7 +27,7 @@
       z-index: 999;
       display: block;
       li {
-        background-color: rgba($color-6, 0.8);
+        background-color: rgba($color-7, 0.8);
         a {
           display: inline-block;
           width: 100%;

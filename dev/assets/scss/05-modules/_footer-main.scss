@@ -3,20 +3,34 @@
   justify-content: center;
   padding: 5px;
   color: #fff; */
-  background-color: rgba($color-6, 0.8);
+  //margin-top: 20px;
+  background-color: rgba($color-7, 1);
+  color: white;
   padding: 5px;
-  
-  a{
-    color:black;
-    font-weight:normal;
-    display: inline-block;
-  i{
-      color: blue;
+  text-align: center;
+  padding: 20px;
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+    .line {
+      height: 1px;
       background-color: white;
-      border-radius: 25%;
-      left: 30%;
-      border: 1px solid gray;
-      padding: 9px;
-  }
+      flex: 1;
+      margin: 0 20px;
+    }
+
+    i {
+      font-size: 24px;
+      color: white;
+      padding: 0 15px;
+
+      &:hover {
+        color: blue; // Change icon color on hover (LinkedIn blue as an example)
+      }
+    }
   }
 }

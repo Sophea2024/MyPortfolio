@@ -1,0 +1,242 @@
+/* Container-Main */
+.container {
+  /*background-color-*/
+  display: flex;
+  flex-direction: column; // Stack columns vertically
+
+  /* row, row-wrap*/
+
+  .row {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .row-wrap {
+    border: 1px solid lightgray;
+    margin-top: 1rem;
+    padding: 10px;
+  }
+
+  /* left-column in index.html */
+  .col1-startseite {
+    width: 50%; // Set width to 40%
+    float: left;
+    //background-color: #f4f4f4;
+    padding: 150px 0;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .col2-startseite {
+    width: 50%; // Set width to 60%
+    float: left;
+    //background-color: #e4e4e4;
+    padding: 70px 0;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+
+    img {
+      border-radius: 50%;
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+
+  .col_contact1 {
+    width: 50%;
+    float: left;
+    padding: 0px 0;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+
+    .my-contact {
+      margin-left: 50px;
+      margin-top: 20px;
+      font-size: medium;
+      font-family: sans-serif;
+    }
+
+    .img-fon {
+      padding: 0;
+      width: 16px;
+    }
+  }
+  .col_contact2 {
+    width: 50%; // Set width to 50%
+    float: left;
+    padding: 50px 0;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+
+    .form-contact {
+      margin-right: 50px;
+      text-align: left;
+      justify-content: center;
+    }
+  }
+
+  .col {
+    width: 33.33%; // Set width to 33.33%
+    text-align: center;
+    justify-content: center;
+  }
+
+  .col-nie {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .col1-startseite,
+    .col2-startseite,
+    .col_contact1,
+    .col_contact2,
+    .col,
+    .col-nie {
+      width: 100%; // Full width on small screens
+    }
+  }
+
+  .image-zoom {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+
+  .btn-about-me,
+  .btn-contact-me {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    background-color: $color-7;
+    color: white;
+    &:hover {
+      background-color: $color-2;
+    }
+  }
+
+  /* set style on page-übermich */
+  .studium,
+  .weiterbildung {
+    padding: 20px;
+
+    .uniheidelberg,
+    .mastereurop {
+      font-weight: bolder;
+      color: rgb(123, 2, 83);
+    }
+
+    .uniheidelberg-tooltip,
+    .mastereurop-tooltip {
+      position: absolute;
+      display: none;
+
+      width: 250px;
+      border: 2px solid #339;
+      padding: 5px;
+      background-color: #eef;
+      opacity: 0.9;
+
+      font-size: 1em;
+      text-align: justify;
+    }
+  }
+
+  // ==/* Set style on page-studium */==
+  /* Size of images*/
+  .bild_heidelberg,
+  .bild_nie,
+  .bild_rupp {
+    width: 100%;
+  }
+
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
+
+  .kurseseminare,
+  .kultursprache,
+  .studentenleben {
+    text-decoration: none;
+    text-align: left;
+
+    .weihnachtbaum,
+    .weihnachtkekse,
+    .buddha,
+    .banane {
+      width: 180px;
+      padding: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      &:hover {
+        transform: scale(3);
+      }
+    }
+  }
+  .forschung {
+    text-align: left;
+    .forschung1,
+    .forschung2,
+    .forschung3 {
+      width: 300px;
+      &:hover {
+        transform: scale(3);
+      }
+    }
+  }
+}
+
+/* Kuchen-backen*/
+.carousel-item {
+  height: 200px;
+  background: black;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.container-info {
+  position: absolute;
+  bottom: 0;
+  //left: 0;
+  right: 0;
+  padding: 20px; /* Optional: Padding für etwas Abstand zur Ecke */
+  text-align: right; /* Rechtsbündig für den Inhalt */
+}
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.col-kh1,
+.col-kh2 {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+}
