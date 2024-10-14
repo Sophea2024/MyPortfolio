@@ -6,43 +6,27 @@
     <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-    <link rel="stylesheet" href="@@webRoot/assets/css/main.css">
+    <link rel="stylesheet" href="@@webRoot/assets/css/main.css" />
     <script src="@@webRoot/assets/js/bundle.js" defer></script>
   </head>
   <body data-page="home">
-    <!-- ▼ Heder Main ▼ -->   
+    <!-- ▼ Heder Main ▼ -->
     @@include('header-main.html')
-    
     <!-- ▼ Menu Main ▼ -->
     @@include('menu-main.html')
 
     <main>
       <div class="container py-5">
-        <h1>Startseite</h1>
-
-        <div class="card" style="width: 18rem">
-          <img src="http://dummyimage.com/400x300" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row">
+          <div class="col1-startseite">
+            <h1>Hallo, ich bin Sophea</h1>
+            <h4>Willst du mehr wissen, wer ich bin?</h4>
+            <button type="button" class="btn-about-me">Über mich</button>
+          </div>
+          <div class="col2-startseite">
+            <img src="assets/img/Bew_Sophea-Bild.jpg" alt="Avatar" style="width: 250px" />
           </div>
         </div>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dignissimos beatae, perspiciatis eaque enim minima perferendis minus
-          amet, quod blanditiis culpa eius. Consectetur aliquid quidem, voluptate, similique facere eveniet deserunt consequatur expedita dicta, vitae
-          ratione repudiandae magnam vel eum hic natus? Aliquam officiis alias, at dolores excepturi, libero consectetur quidem magni quae unde harum
-          cumque repellendus quod adipisci nam labore sed rerum placeat reiciendis et in temporibus ut perferendis. Et adipisci ipsa natus eos ea
-          officiis nostrum voluptates, qui asperiores veritatis. Provident dolorem dolores laudantium reprehenderit voluptate, inventore excepturi
-          fugit error enim laboriosam libero aliquid obcaecati quas officia aliquam perspiciatis consequatur vero doloremque quaerat illum. Aperiam
-          aliquid tempore ratione veniam vero itaque perferendis. Quod repudiandae nemo et ullam, veritatis obcaecati aperiam temporibus deleniti
-          voluptates dolor ducimus maxime aut debitis, soluta saepe adipisci libero nihil, in quas numquam. Consequatur hic odio laborum ea debitis
-          similique quia nulla sunt molestiae, ipsum praesentium minus nihil vel ipsam quas eum maiores blanditiis deleniti, delectus iure. Ipsa, rem
-          nisi provident beatae voluptatum unde, sint ipsum vitae aperiam dignissimos, doloremque non molestiae voluptas fugit expedita! Nemo ab
-          cupiditate nesciunt? Magnam esse perspiciatis eos a totam consequuntur, velit quaerat autem repellat sequi. Perferendis, quidem. Rerum,
-          dolorum laborum!
-        </p>
       </div>
     </main>
     @@include('footer-main.html')
