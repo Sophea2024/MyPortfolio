@@ -1,0 +1,18 @@
+/* Color Theme Swatches in Hex */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, "Helvetice Neue", Helvetica, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
+}/*# sourceMappingURL=index.css.map */
