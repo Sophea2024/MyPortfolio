@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9d85136.css",
-    "main.js": "/static/js/main.03fc6693.js",
-    "static/media/Bew_Sophea-Bild.jpg": "/static/media/Bew_Sophea-Bild.251f54b976ffe5733a80.jpg",
-    "index.html": "/index.html",
-    "main.a9d85136.css.map": "/static/css/main.a9d85136.css.map",
-    "main.03fc6693.js.map": "/static/js/main.03fc6693.js.map"
+    "main.css": "/MyPortfolio/static/css/main.a9d85136.css",
+    "main.js": "/MyPortfolio/static/js/main.a3af2536.js",
+    "static/media/Bew_Sophea-Bild.jpg": "/MyPortfolio/static/media/Bew_Sophea-Bild.251f54b976ffe5733a80.jpg",
+    "index.html": "/MyPortfolio/index.html",
+    "main.a9d85136.css.map": "/MyPortfolio/static/css/main.a9d85136.css.map",
+    "main.a3af2536.js.map": "/MyPortfolio/static/js/main.a3af2536.js.map"
   },
   "entrypoints": [
     "static/css/main.a9d85136.css",
-    "static/js/main.03fc6693.js"
+    "static/js/main.a3af2536.js"
   ]
 }
