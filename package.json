@@ -10,7 +10,7 @@
     "start": "npm-run-all --parallel client server",
     "build": "cd client && npm run build",
     "predeploy": "npm run build",  
-    "deploy": "gh-pages -d client/build"
+    "deploy": "npx gh-pages -d client/build"
   },
   "keywords": [],
   "author": "",
