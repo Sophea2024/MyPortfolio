@@ -1,0 +1,37 @@
+/* Einheitliche Ausrichtung der Navbar-Links */
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;  /* Links nach rechts verschieben */
+  width: 100%;  /* Die Links sollen den gesamten verfügbaren Platz einnehmen */
+}
+
+/* Einheitliches Styling der Links */
+.navbar a {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Hover-Effekt für Links */
+.navbar a:hover {
+  color: lightblue !important;
+}
+
+/* Dropdown-Menü */
+.navbar .dropdown-menu {
+  background-color: white;
+}
+
+/* Navbar-Links nach rechts verschieben */
+.navbar-nav {
+  margin-left: auto;  /* Diese Zeile verschiebt die Links nach rechts */
+}
+
+/* Dropdown-Item Styling */
+.navbar .dropdown-item {
+  color: black !important;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #f8f9fa !important;
+  color: black !important;
+}
