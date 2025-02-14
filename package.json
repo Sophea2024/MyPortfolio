@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://deinbenutzername.github.io/MyPortfolio",
+  "homepage": "https://sophea2024.github.io/MyPortfolio/",
   "scripts": {
     "server": "cd server && npm install && npm start",
     "client": "cd client && npm install && npm start",
