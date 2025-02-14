@@ -7,7 +7,7 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/projects")
+    fetch("https://github.com/Sophea2024/MyPortfolio/blob/main/server/data/projects.json")
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error("Fehler beim Laden:", error));
