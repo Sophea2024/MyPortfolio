@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a9d85136.css",
-    "main.js": "/static/js/main.02c7ff0f.js",
+    "main.js": "/static/js/main.53a88e19.js",
     "static/media/Bew_Sophea-Bild.jpg": "/static/media/Bew_Sophea-Bild.251f54b976ffe5733a80.jpg",
     "index.html": "/index.html",
     "main.a9d85136.css.map": "/static/css/main.a9d85136.css.map",
-    "main.02c7ff0f.js.map": "/static/js/main.02c7ff0f.js.map"
+    "main.53a88e19.js.map": "/static/js/main.53a88e19.js.map"
   },
   "entrypoints": [
     "static/css/main.a9d85136.css",
-    "static/js/main.02c7ff0f.js"
+    "static/js/main.53a88e19.js"
   ]
 }
