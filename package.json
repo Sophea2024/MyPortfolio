@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://deinbenutzername.github.io/MyPortfolio",
   "scripts": {
     "server": "cd server && npm install && npm start",
     "client": "cd client && npm install && npm start",
     "start": "npm-run-all --parallel client server",
-    "build": "cd server && npm install && npm run build"
+    "build": "cd client && npm run build",
+    "predeploy": "npm run build",  
+    "deploy": "gh-pages -d client/build"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,7 @@
   "type": "commonjs",
   "devDependencies": {
     "concurrently": "^9.1.2",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "gh-pages": "^3.1.0"
   }
 }
