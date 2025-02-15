@@ -1,0 +1,23 @@
+.button-addProject {
+    display: flex;
+    justify-content: flex-end; /* Schiebt den Button nach rechts */
+    margin-bottom: 10px; /* Abstand zur Tabelle */
+    width: 100%; /* Volle Breite */
+}
+
+.button-addProject button {
+    display: flex;
+    align-items: center; /* Icon & Text nebeneinander */
+    background-color: #007bff; /* Bootstrap-Blau */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.button-addProject button:hover {
+    background-color: #0056b3; /* Dunkleres Blau */
+    transform: scale(1.05); /* Kleines Vergrößern */
+}
