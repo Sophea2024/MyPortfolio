@@ -3,5 +3,17 @@
         "id" : 1,
         "name": "Deutsch",
         "niveau": "Gut"
+    },
+
+    {
+        "id" : 2,
+        "name": "Englisch",
+        "niveau": "Gut"
+    },
+
+    {
+        "id" : 3,
+        "name": "Khmer / Kambodscha",
+        "niveau": "Muttersprache"
     }
 ]

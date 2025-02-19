@@ -10,7 +10,7 @@ const Languages = () => {
   
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/Sophea2024/MyPortfolio/blob/main/server/data/languages.json"
+      "https://raw.githubusercontent.com/Sophea2024/MyPortfolio/main/server/data/languages.json"
     )
       .then((response) => response.json())
       .then((data) => setLanguages(data))
