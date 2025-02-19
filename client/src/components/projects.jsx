@@ -7,6 +7,8 @@ import "./css/AddProject.css";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
 
+  const userRole = "user";
+
   useEffect(() => {
     fetch(
       "https://raw.githubusercontent.com/Sophea2024/MyPortfolio/main/server/data/projects.json"
@@ -16,12 +18,20 @@ const Projects = () => {
       .catch((error) => console.error("Fehler beim Laden:", error));
   }, []);
 
+  const handleAddProject = () => {
+    if (userRole !== "admin") {
+      alert("Nur Admin darf ein neues Projekt hinzufügen!");      
+    } else {
+      console.log("Das Projekt wurde hinzugefügt!")
+    }
+  }
+
   return (
     <Container className="mt-5">
       <h1>Meine Projekte</h1>
       <p>Hier werde ich meine Projekte zeigen.</p>
       <div className="button-addProject">
-        <button onClick="#">Projekt hinzufügen</button>
+        <button onClick={handleAddProject}>Projekt hinzufügen</button>
       </div>
 
       {/* Tabellen-Kopfzeile */}
