@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button, Modal } from "react-bootstrap";
 import "../styles/home.css";
 import "../styles/projects.css";
 import "./css/AddProject.css";
@@ -7,6 +7,7 @@ import "./css/AddProject.css";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
 
+  const [showModal, setShowModal] = useState(false);
   const userRole = "user";
 
   useEffect(() => {
@@ -20,9 +21,9 @@ const Projects = () => {
 
   const handleAddProject = () => {
     if (userRole !== "admin") {
-      alert("Nur Admin darf ein neues Projekt hinzufügen!");      
+      setShowModal(true); // Modal erst hier anzeigen
     } else {
-      console.log("Das Projekt wurde hinzugefügt!")
+      console.log("Projekt hinzufügen...");
     }
   }
 
@@ -33,6 +34,20 @@ const Projects = () => {
       <div className="button-addProject">
         <button onClick={handleAddProject}>Projekt hinzufügen</button>
       </div>
+
+      <Modal show={showModal} onHide={() => setShowModal(false)} centered className="custom-modal">
+        <Modal.Header closeButton>
+          <Modal.Title>⚠️ Zugriff verweigert</Modal.Title>
+        </Modal.Header>
+        <Modal.Body className="custom-modal-body">
+          Nur Admin darf ein neues Projekt hinzufügen!
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={() => setShowModal(false)}>
+            Verstanden
+          </Button>
+        </Modal.Footer>
+      </Modal>
 
       {/* Tabellen-Kopfzeile */}
       <Row className="fw-bold border-bottom p-2">
