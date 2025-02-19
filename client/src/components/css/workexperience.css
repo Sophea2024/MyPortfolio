@@ -1,0 +1,16 @@
+.row.justify-content-center {
+  width: 100%;
+}
+
+.card-body {
+  padding: 3rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-img {
+  padding: 10px;
+  border-radius: 5px; /* Optional: Fügt dem Bild abgerundete Ecken hinzu */
+  width: 100%;
+  height: auto;
+}
