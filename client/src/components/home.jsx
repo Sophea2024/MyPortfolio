@@ -22,7 +22,6 @@ const Home = () => {
           <Button
             variant="primary"
             onClick={() => navigate("/projects")}
-            target="blank"
           >
             Meine Projekte ansehen
           </Button>
