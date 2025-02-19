@@ -10,7 +10,7 @@ const Languages = () => {
   
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/Sophea2024/MyPortfolio/main/server/data/projects.json"
+      "https://raw.githubusercontent.com/Sophea2024/MyPortfolio/main/server/data/laguages.json"
     )
       .then((response) => response.json())
       .then((data) => setProjects(data))
@@ -21,7 +21,7 @@ const Languages = () => {
 
   return (
     <Container className="mt-5">
-      <h1>Meine Projekte</h1>
+      <h1>Meine Sprachkennisse</h1>
       <p>Hier werde ich meine Projekte zeigen.</p>
       
 
