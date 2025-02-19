@@ -35,7 +35,7 @@ const Projects = () => {
         <Row key={project.id} className="border-bottom p-2 project-row">
           <Col md={4}>{project.title}</Col>
           <Col md={8}>
-            <a href={project.links} rel="noopener noreferrer">
+            <a href={project.links} target="_blank" rel="noopener noreferrer">
               {project.links}
             </a>
           </Col>
