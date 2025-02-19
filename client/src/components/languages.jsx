@@ -5,15 +5,15 @@ import "../styles/projects.css";
 import "./css/AddProject.css";
 
 const Languages = () => {
-  const [languages, setProjects] = useState([]);
+  const [languages, setLanguages] = useState([]);
 
   
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/Sophea2024/MyPortfolio/main/server/data/laguages.json"
+      "https://raw.githubusercontent.com/Sophea2024/MyPortfolio/blob/main/server/data/languages.json"
     )
       .then((response) => response.json())
-      .then((data) => setProjects(data))
+      .then((data) => setLanguages(data))
       .catch((error) => console.error("Fehler beim Laden:", error));
   }, []);
 
@@ -21,11 +21,8 @@ const Languages = () => {
 
   return (
     <Container className="mt-5">
-      <h1>Meine Sprachkennisse</h1>
-      <p>Hier werde ich meine Projekte zeigen.</p>
-      
-
-      
+      <h1>Meine Sprachkenntnisse</h1>
+      <p>Hier werden meine Sprachkenntnisse gezeigt.</p>
 
       {/* Tabellen-Kopfzeile */}
       <Row className="fw-bold border-bottom p-2">
