@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.fab26d99.css",
-    "main.js": "/MyPortfolio/static/js/main.a99e1a88.js",
+    "main.js": "/MyPortfolio/static/js/main.e987a833.js",
     "static/media/Bew_Sophea-Bild.jpg": "/MyPortfolio/static/media/Bew_Sophea-Bild.251f54b976ffe5733a80.jpg",
     "index.html": "/MyPortfolio/index.html",
     "main.fab26d99.css.map": "/MyPortfolio/static/css/main.fab26d99.css.map",
-    "main.a99e1a88.js.map": "/MyPortfolio/static/js/main.a99e1a88.js.map"
+    "main.e987a833.js.map": "/MyPortfolio/static/js/main.e987a833.js.map"
   },
   "entrypoints": [
     "static/css/main.fab26d99.css",
-    "static/js/main.a99e1a88.js"
+    "static/js/main.e987a833.js"
   ]
 }
