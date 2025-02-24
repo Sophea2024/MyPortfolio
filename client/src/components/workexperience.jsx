@@ -9,7 +9,7 @@ import RUPPRO from "../img/rupp_2.png";
 const Workexperience = () => {
   return (
     <Container className="mt-5">
-      <h1>Meine Beruflische Erfahrung</h1>
+      <h1>Meine Berufliche Erfahrung</h1>
       <p>Hier werde ich meine bisherigen Arbeiten zeigen.</p>
 
       {/* Add-Cards-1 */}
