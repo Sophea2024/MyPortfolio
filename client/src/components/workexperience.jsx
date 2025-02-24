@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Card, Row, Col } from "react-bootstrap";
-import "./css/workexperience.css";
+import "../styles/workexperience.css";
 import IWR from "../img/IWR.png";
 import NIE from "../img/nie.png";
-import RUPP from "../img/rupp.png";
+import RUPP from "../img/rupp.jpg";
 import RUPPRO from "../img/rupp_2.png";
 
 const Workexperience = () => {

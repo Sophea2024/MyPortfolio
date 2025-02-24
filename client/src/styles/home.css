@@ -1,47 +1,74 @@
-body{
+/* Hintergrund mit Farbverlauf */
+.home-section {
+  background: linear-gradient(to right, #1f3d74, #2a5298);
+  height: 100vh;
+  display: flex;
+  text-align: center;  
+  align-items: center;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
-/* Hintergrund mit Farbverlauf */
-.home-section {
-    background: linear-gradient(to right, #1f3d74, #2a5298);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
 
-  .home-image {
-    width: 280px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 30px;
+/* Bild */
+.home-image {
+  width: 270px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Überschrift */
+.home-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Text */
+.home-text {
+  font-size: 1.2rem;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+/* Button */
+.home-btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.home-btn:hover {
+  background-color: #e68900;
+  transform: scale(1.05);
+}
+.home-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
   }
-  
-  /* Überschrift */
-  .home-title {
-    font-size: 3.5rem;
-    font-weight: bold;
-    color: white;
+  to {
+      opacity: 1;
+      transform: translateY(0);
   }
-  
-  /* Text */
-  .home-text {
-    font-size: 1.2rem;
-    color: white;
-  }
-  
-  /* Button */
-  .home-btn {
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    background-color: #ff9800;
-    border: none;
-    transition: background 0.3s ease;
-  }
-  
-  .home-btn:hover {
-    background-color: #e68900;
-  }
-  
+}

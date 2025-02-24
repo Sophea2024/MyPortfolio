@@ -25,7 +25,7 @@ const Languages = () => {
       <p>Hier werden meine Sprachkenntnisse gezeigt.</p>
 
       {/* Tabellen-Kopfzeile */}
-      <Row className="fw-bold border-bottom p-2">
+      <Row className="fw-bold border-bottom p-3"  style={{marginTop: "50px"}}>
         <Col md={4}>Sprachen</Col>
         <Col md={8}>Niveau</Col>
       </Row>
@@ -33,7 +33,7 @@ const Languages = () => {
 
       {/* Projektdaten */}
       {languages.map((language) => (
-        <Row key={language.id} className="border-bottom p-2 project-row">
+        <Row key={language.id} className="border-bottom p-3 project-row">
           <Col md={4}>{language.name}</Col>
           <Col md={8}>
             <a href={language.niveau} target="_blank" rel="noopener noreferrer">

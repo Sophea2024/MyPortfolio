@@ -4,25 +4,21 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/home.css";
 import myPhoto from "../img/Bew_Sophea-Bild.jpg";
 
-
 const Home = () => {
   const navigate = useNavigate();
   return (
     <Container fluid className="home-section text-center">
       <Row className="align-items-center vh-100">
-        <Col>  
-          <img src= {myPhoto} alt="Willkommen" className="home-image" />       
-          <h1 className="display-3 text-white">
+        <Col>
+          <img src={myPhoto} alt="Willkommen" className="home-image" />
+          <h2 className="display-3 text-white">
             Willkommen in meinem Portfolio!
-          </h1>
+          </h2>
           <p className="lead text-white">
             Ich bin Sophea Wiesenfarth-Chan, eine leidenschaftliche
             Softwareentwicklerin.
           </p>
-          <Button
-            variant="primary"
-            onClick={() => navigate("/projects")}
-          >
+          <Button variant="primary" onClick={() => navigate("/projects")}>
             Meine Projekte ansehen
           </Button>
         </Col>

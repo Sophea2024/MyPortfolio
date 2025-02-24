@@ -12,7 +12,7 @@ const CustomNavbar = () => {
   const navigate = useNavigate();
 
   return (
-    <Navbar bg="primary" expand="lg" className="navbar">
+    <Navbar bg="primary" expand="lg" className=" bg-custom navbar">
       <Container>
         <Navbar.Brand
           onClick={() => navigate("/")}
@@ -29,13 +29,13 @@ const CustomNavbar = () => {
               <NavDropdown.Item onClick={() => navigate("/workexperience")}>
                 Erfahrungen
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">Studium</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item onClick={() => navigate("/educations")}>Ausbildung</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => navigate("/courses")}>
                 Weiterbildung
               </NavDropdown.Item>
               <NavDropdown.Item onClick={() => navigate("/Languages")}>Sprachen</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.3">Hobbies</NavDropdown.Item>
+              <NavDropdown.Item href="">Hobbies</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

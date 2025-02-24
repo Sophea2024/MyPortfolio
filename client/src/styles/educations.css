@@ -1,0 +1,26 @@
+.weiterbildung {
+    height: 310px;
+    margin: 0;
+    padding: 0;
+}
+
+.master {
+    height: 230px;
+    width: 500px;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bachelor {
+    margin-top: 55px;
+}
+
+.small-margin {
+    margin-top: 0px; /* Oder eine kleinere Pixelangabe */
+  }
+
+  .text-dark-blue, .mtext-blue{
+    color: darkblue;
+  }
