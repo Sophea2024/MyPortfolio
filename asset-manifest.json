@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.18fefdcf.css",
-    "main.js": "/MyPortfolio/static/js/main.37835c0a.js",
+    "main.css": "/MyPortfolio/static/css/main.c46a5e4a.css",
+    "main.js": "/MyPortfolio/static/js/main.d00f7d43.js",
     "static/media/nie.png": "/MyPortfolio/static/media/nie.47365a2dbef8b3deface.png",
     "static/media/rupp_2.png": "/MyPortfolio/static/media/rupp_2.094fc93886ed23c43a12.png",
+    "static/media/rupp.jpg": "/MyPortfolio/static/media/rupp.0fee465bf35708129424.jpg",
     "static/media/Bew_Sophea-Bild.jpg": "/MyPortfolio/static/media/Bew_Sophea-Bild.251f54b976ffe5733a80.jpg",
-    "static/media/rupp.png": "/MyPortfolio/static/media/rupp.0f5990b81baa6e3d07ae.png",
+    "static/media/rupp_logo.png": "/MyPortfolio/static/media/rupp_logo.141bb4df019d201a02d6.png",
+    "static/media/hs.jpg": "/MyPortfolio/static/media/hs.d3b5d302b3ecb011b97a.jpg",
+    "static/media/hd.png": "/MyPortfolio/static/media/hd.8744c4d6b0e894ca6b2c.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.18fefdcf.css.map": "/MyPortfolio/static/css/main.18fefdcf.css.map",
-    "main.37835c0a.js.map": "/MyPortfolio/static/js/main.37835c0a.js.map"
+    "main.c46a5e4a.css.map": "/MyPortfolio/static/css/main.c46a5e4a.css.map",
+    "main.d00f7d43.js.map": "/MyPortfolio/static/js/main.d00f7d43.js.map"
   },
   "entrypoints": [
-    "static/css/main.18fefdcf.css",
-    "static/js/main.37835c0a.js"
+    "static/css/main.c46a5e4a.css",
+    "static/js/main.d00f7d43.js"
   ]
 }
