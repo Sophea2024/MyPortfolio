@@ -9,7 +9,9 @@ import "./styles/navbar.css";
 import "./App.css";
 import Ausbildung from "./components/educations";
 import Courses from "./components/couses";
+import Hobbies  from "./components/hobbies";
 import Footer from "./components/footer";
+import HobbyDetail from "./components/hobbiesDetail";
 
 function Layout() {
   const location = useLocation();
@@ -26,6 +28,8 @@ function Layout() {
             <Route path="/educations" element={<Ausbildung />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/Languages" element={<Languages />} />
+            <Route path="/Hobbies" element={<Hobbies />} />
+            <Route path="/hobby/:id" element={<HobbyDetail />} />
           </Routes>
         </main>
         <Footer />

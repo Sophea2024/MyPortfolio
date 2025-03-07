@@ -17,7 +17,7 @@ const Workexperience = () => {
         <Col md={12}>
           <Card className="mb-4">
             <Row className="no-gutters">
-              <Col md={9}>
+              <Col md={8}>
                 <Card.Body>
                   <Card.Title>
                     Wissenschaftliche Hilfskraft – Teilzeit
@@ -35,7 +35,7 @@ const Workexperience = () => {
                   </Card.Link>
                 </Card.Body>
               </Col>
-              <Col md={3} className="d-flex justify-content-center">
+              <Col md={4} className="d-flex justify-content-center">
                 <Card.Img src={IWR} className="card-img" />
               </Col>
             </Row>
@@ -73,7 +73,7 @@ const Workexperience = () => {
         <Col md={12}>
           <Card className="mb-4">
             <Row className="no-gutters">
-              <Col md={9}>
+              <Col md={8}>
                 <Card.Body>
                   <Card.Title>
                     Assistentin für das Master Programm im Bereich "Pädagogik"–
@@ -92,7 +92,7 @@ const Workexperience = () => {
                   </Card.Link>
                 </Card.Body>
               </Col>
-              <Col md={3} className="d-flex justify-content-center">
+              <Col md={4} className="d-flex justify-content-center">
                 <Card.Img src={RUPP} className="card-img" />
               </Col>
             </Row>

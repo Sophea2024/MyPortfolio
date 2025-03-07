@@ -35,7 +35,7 @@ const CustomNavbar = () => {
               </NavDropdown.Item>
               <NavDropdown.Item onClick={() => navigate("/Languages")}>Sprachen</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="">Hobbies</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => navigate("/hobbies")}>Hobbies</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

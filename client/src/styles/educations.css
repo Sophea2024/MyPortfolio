@@ -24,3 +24,7 @@
   .text-dark-blue, .mtext-blue{
     color: darkblue;
   }
+
+.mb-4:hover{
+    background: #f6f6f6;
+}

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.zurück-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    width: auto;
+    max-width: 200px;
+    margin-left: 20px; 
+    margin-top: 0;   
+}
+
+.bachen-section {
+  margin-top: 10px;
+}
+
+.row.justify-content-center {
+    width: 100%;
+  }
+  
+  .card-body {
+    padding: 3rem;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-img {
+    padding: 0px;
+    border-radius: 5px; /* Optional: Fügt dem Bild abgerundete Ecken hinzu */
+    height: 300px;
+    width: 300px;
+  }
+  .card-text {    
+    margin: 0;
+    padding: 0;
+  }
