@@ -12,7 +12,7 @@ const hobbies = [
   {
     id: 0,
     title: "Kuchen Backen",
-    text: "Meine Freizeit für miene liebe Familie",
+    text: "Meine Freizeit für meine liebe Familie",
     img: BK1,
     extraInfo: "Nach dem backen genießen wir.",
   },

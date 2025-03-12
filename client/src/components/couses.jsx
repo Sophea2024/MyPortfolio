@@ -4,8 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 const Courses = () => {
   return (
     <Container className="mt-5">
-      <h1>Meine Ausbildung</h1>
-      <p>Hier werde ich meine Weitebiludung gezeigt.</p>
+      <h1>Meine Weiterbildung</h1>
+      <p>Hier werde ich meine Weiterbildung zeigen.</p>
 
       {/* Table Header */}
       <Row
@@ -101,7 +101,7 @@ const Courses = () => {
           <div>Deutschkurs "C1 kompakt"</div>
         </Col>
         <Col md={3}>
-          <div>Vollshochschule Wiesbaden</div>
+          <div>Volkshochschule Wiesbaden</div>
         </Col>
         <Col md={3}>
           <div>01.2019 - 05.2019</div>
@@ -124,7 +124,7 @@ const Courses = () => {
           <div>Deutschkurs "B2 kompakt"</div>
         </Col>
         <Col md={3}>
-          <div>Vollshochschule Wiesbaden</div>
+          <div>Volkshochschule Wiesbaden</div>
         </Col>
         <Col md={3}>
           <div>01.2019 - 05.2019</div>
@@ -147,7 +147,7 @@ const Courses = () => {
           <div>Orientierungskurs "Leben in Deutschland"</div>
         </Col>
         <Col md={3}>
-          <div>Vollshochschule Wiesbaden</div>
+          <div>Volkshochschule Wiesbaden</div>
         </Col>
         <Col md={3}>
           <div>08.2018 - 09.2018</div>
@@ -159,7 +159,7 @@ const Courses = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Vollshochschule Wiesbaden
+              Volkshochschule Wiesbaden
             </a>
           </div>
         </Col>
@@ -170,7 +170,7 @@ const Courses = () => {
           <div>Intensivkurs "Aufbaukurs A2.2-B1.2"</div>
         </Col>
         <Col md={3}>
-          <div>Vollshochschule Wiesbaden</div>
+          <div>Volkshochschule Wiesbaden</div>
         </Col>
         <Col md={3}>
           <div>04.2018 - 08.2018</div>
@@ -182,7 +182,7 @@ const Courses = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Vollshochschule Wiesbaden
+              Volkshochschule Wiesbaden
             </a>
           </div>
         </Col>
