@@ -22,7 +22,7 @@ function Natur() {
             Zurück
           </Button>
           <h2>
-            Freizeit in derNatur!
+            Freizeit in der Natur!
           </h2>
           <Row className="justify-content-center align-items-center">
             <Col md={12} className="kuchen-baken">

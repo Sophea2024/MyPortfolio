@@ -22,7 +22,7 @@ const Languages = () => {
   return (
     <Container className="mt-5">
       <h1>Meine Sprachkenntnisse</h1>
-      <p>Hier werden meine Sprachkenntnisse gezeigt.</p>
+      <p>Hier werden meine Sprachkenntnisse zeiggen.</p>
 
       {/* Tabellen-Kopfzeile */}
       <Row className="fw-bold border-bottom p-3"  style={{marginTop: "50px"}}>
