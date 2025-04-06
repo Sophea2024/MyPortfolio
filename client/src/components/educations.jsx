@@ -10,7 +10,7 @@ const Ausbildung = () => {
   return (
     <Container className="mt-5">
       <h1>Meine Ausbildung</h1>
-      <p>Ein Überblick über meine akademische Laufbahn.</p>
+      <p>Hier finden Sie einen Überblick über meine Ausbildungen.</p>
 
       <Row className="weiterbildung">
         <Col md={6} className="d-flex justify-content-center">
@@ -27,7 +27,7 @@ const Ausbildung = () => {
                   className="mt-1 text-center text-muted"
                   style={{ color: "darkblue" }}
                 >
-                  Gemeinsam Weiterbildunden
+                  Gemeinsam weiterbilden
                 </p>
               </Col>
 
@@ -75,7 +75,7 @@ const Ausbildung = () => {
                   className="mt-1 text-center text-muted"
                   style={{ color: "darkblue" }}
                 >
-                  Gemeinsam Weiterbildunden
+                  Gemeinsam weiterbilden
                 </p>
               </Col>
 
@@ -138,7 +138,7 @@ const Ausbildung = () => {
                   </Card.Title>
                   <Card.Text className="text-muted">
                     Von Oktober 2009 bis Januar 2018 habe ich mein Masterstudium der Informatik an der Ruprecht-Karls-Universität
-                    Heidelberg Universtität absolviert.
+                    Heidelberg absolviert.
                   </Card.Text>
                   Mehr erfahren über{" "}
                   <Card.Link
@@ -180,7 +180,7 @@ const Ausbildung = () => {
                     Teacher with Higher Education Degree
                   </Card.Title>
                   <Card.Text className="text-muted">
-                    Von Oktober 2006 bis September 2007 habe ich mein Studium der Informatik am National Instistut of Education (NIE) absolviert. NIE ist ein Institut an der Pädagogischen Hochschule.
+                    Von Oktober 2006 bis September 2007 habe ich mein Studium der Informatik am National Institute of Education (NIE) absolviert. NIE ist ein Institut der Pädagogischen Hochschule.
                   </Card.Text>
                   Mehr erfahren über{" "}
                   <Card.Link href="http://www.nie.edu.kh/en/" target="_blank">
@@ -217,7 +217,7 @@ const Ausbildung = () => {
                     Bachelor der Informatik
                   </Card.Title>
                   <Card.Text className="text-muted">
-                    Von November 2001 bis Mai 2005 habe mein Bachelorstudium der Informatik an der Royal University of Phnom Penh absolviert.
+                    Von November 2001 bis Mai 2005 habe ich mein Bachelorstudium der Informatik an der Royal University of Phnom Penh absolviert.
                   </Card.Text>
                   Mehr erfahren über{" "}
                   <Card.Link href="https://rupp.edu.kh/" target="_blank">

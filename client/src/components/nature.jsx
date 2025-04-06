@@ -31,7 +31,7 @@ function Natur() {
                   <Col md={4} className="d-flex justify-content-center">
                     <Card.Body className="d-flex flex-column align-items-center">
                       <Card.Text className="d-flex justify-content-center">
-                        <h4>Das Ferd auf dem Berg</h4>
+                        <h4>Pferd auf dem Berg</h4>
                       </Card.Text>
                       <Card.Img src={Berg1} />
                     </Card.Body>
@@ -39,7 +39,7 @@ function Natur() {
                   <Col md={4}>
                     <Card.Body className="d-flex flex-column align-items-center">
                       <Card.Text className="d-flex justify-content-center">
-                        <h4>Bauenhofmuseum Finsterau</h4>
+                        <h4>Bauernhofmuseum Finsterau</h4>
                       </Card.Text>
                       <Card.Img src={Berg2} />
                     </Card.Body>

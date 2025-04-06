@@ -11,21 +11,21 @@ import { Link } from "react-router-dom";
 const hobbies = [
   {
     id: 0,
-    title: "Kuchen Backen",
-    text: "Meine Freizeit für meine liebe Familie",
+    title: "Kuchen backen",
+    text: "Freizeit mit meiner lieben Familie",
     img: BK1,
-    extraInfo: "Nach dem backen genießen wir.",
+    extraInfo: "Nach dem Backen genießen wir.",
   },
   {
     id: 1,
     title: "Garten und Pflanzen",
-    text: "Gemüse, Kräuter und Blumen zu pflanzen macht mir Spaß.",
+    text: "Gemüse, Kräuter und Blumen pflanzen macht mir Spaß.",
     img: BK2,
-    extraInfo: "Spaß beim Pflanzen, dann geniesen die Augen.",
+    extraInfo: "Spaß beim Pflanzen, dann mit den Augen genießen.",
   },
   {
     id: 2,
-    title: "Bewegung im Natur",
+    title: "Bewegung in der Natur",
     text: "Ein Spaziergang in der Natur ist gesund und macht glücklich.",
     img: Nat1,
     extraInfo: "Das Leben braucht Bewegung.",

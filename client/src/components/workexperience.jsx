@@ -10,7 +10,7 @@ const Workexperience = () => {
   return (
     <Container className="mt-5">
       <h1>Meine Berufliche Erfahrung</h1>
-      <p>Hier werde ich meine bisherigen Arbeiten zeigen.</p>
+      <p>Hier stelle ich meine Arbeiterfahrung vor.</p>
 
       {/* Add-Cards-1 */}
       <Row className="justify-content-center" style={{ width: "100%" }}>
@@ -53,7 +53,7 @@ const Workexperience = () => {
               </Col>
               <Col md={8}>
                 <Card.Body>
-                  <Card.Title>Informatik Dozentin</Card.Title>
+                  <Card.Title>Dozentin Informatik </Card.Title>
                   <Card.Text>
                     Von Oktober 2007 bis August 2009 habe ich als Dozentin am National Institute of Education
                     (NIE) gearbeitet.
@@ -76,7 +76,7 @@ const Workexperience = () => {
               <Col md={8}>
                 <Card.Body>
                   <Card.Title>
-                    Assistentin für das Master Programm im Bereich "Pädagogik"–
+                    Assistentin für das Master Programm im Bereich Pädagogik–
                     Teilzeit
                   </Card.Title>
                   <Card.Text>
@@ -122,7 +122,7 @@ const Workexperience = () => {
                     href="https://rupp.edu.kh/offices/ro/"
                     target="_blank"
                   >
-                    Mehr erfahren über Forschungsbüro der Royal University of
+                    Mehr erfahren über das Forschungsbüro der Royal University of
                     Phnom Penh
                   </Card.Link>
                 </Card.Body>

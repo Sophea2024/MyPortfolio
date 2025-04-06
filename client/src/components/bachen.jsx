@@ -30,7 +30,7 @@ function Bachen() {
               <Col md={4} className="d-flex justify-content-center">
                 <Card.Body className="d-flex flex-column align-items-center">
                   <Card.Text className="d-flex justify-content-center">
-                    <h4>Schwarzwälder Torte</h4>
+                    <h4>Schwarzwälder Kirschtorte</h4>
                   </Card.Text>
                   <Card.Img src={SchwK} />
                 </Card.Body>
@@ -54,7 +54,7 @@ function Bachen() {
               <Col md={4}>
                 <Card.Body className="d-flex flex-column align-items-center">
                   <Card.Text className="d-flex justify-content-center">
-                    <h4>Mandaine-Käse Kuchen</h4>
+                    <h4>Mandarinen-Käse Kuchen</h4>
                   </Card.Text>
                   <Card.Img src={KaeseK} />
                 </Card.Body>
@@ -94,7 +94,7 @@ function Bachen() {
               <Col md={4}>
                 <Card.Body className="d-flex flex-column align-items-center">
                   <Card.Text className="d-flex justify-content-center">
-                    <h4>Weihnachten Plätzchen</h4>
+                    <h4>Weihnachtsplätzchen</h4>
                   </Card.Text>
                   <Card.Img src={Plaetz} />
                 </Card.Body>

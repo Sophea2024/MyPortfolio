@@ -30,7 +30,7 @@ const Projects = () => {
   return (
     <Container className="mt-5">
       <h1>Meine Projekte</h1>
-      <p>Hier werde ich meine Projekte gezeigt.</p>
+      <p>Hier werde ich meine Projekte zeigen.</p>
       <div className="button-addProject">
         <button onClick={handleAddProject}>Projekt hinzufügen</button>
       </div>

@@ -21,7 +21,7 @@ function Garten() {
         Zurück
       </Button>
       <h2>
-        Es macht mir Spaß, in meiner Freizeit zu backen!
+        Es macht mir Spaß, in meiner Freizeit zu gärtnern!
       </h2>
       <Row className="justify-content-center align-items-center">
         <Col md={12} className="kuchen-baken">
@@ -70,7 +70,7 @@ function Garten() {
               <Col md={4}>
                 <Card.Body className="d-flex flex-column align-items-center">
                   <Card.Text className="d-flex justify-content-center">
-                    <h4>Holy Basil (Indisches Basilkum)</h4>
+                    <h4>Holy Basil (Indisches Basilikum)</h4>
                   </Card.Text>
                   <Card.Img src={Basilkum} />
                 </Card.Body>

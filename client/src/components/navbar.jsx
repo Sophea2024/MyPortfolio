@@ -33,10 +33,10 @@ const CustomNavbar = () => {
               <NavDropdown.Item onClick={() => navigate("/courses")}>
                 Weiterbildung
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={() => navigate("/Languages")}>Sprachen</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item onClick={() => navigate("/hobbies")}>Hobbies</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => navigate("/Languages")}>Sprachen</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link onClick={() => navigate("/hobbies")}>Hobbies</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

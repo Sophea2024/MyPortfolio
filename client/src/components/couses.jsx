@@ -5,7 +5,7 @@ const Courses = () => {
   return (
     <Container className="mt-5">
       <h1>Meine Weiterbildung</h1>
-      <p>Hier werde ich meine Weiterbildung zeigen.</p>
+      <p>Hier werde ich meine Weiterbildungen zeigen.</p>
 
       {/* Table Header */}
       <Row
