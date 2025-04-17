@@ -54,14 +54,7 @@ const Projects = () => {
         <Col md={4}>Projektname</Col>
         <Col md={8}>Projekt-Link</Col>
       </Row>
-      <Row className="border-bottom p-3">
-        <Col md={4}>MyPortfolio</Col>
-        <Col md={8}>
-          <a href="https://sophea2024.github.io/MyPortfolio">
-            https://sophea2024.github.io/MyPortfolio
-          </a>
-        </Col>
-      </Row>
+      
 
       {/* Projektdaten */}
       {projects.map((project) => (
