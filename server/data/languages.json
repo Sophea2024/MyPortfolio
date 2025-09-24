@@ -2,13 +2,13 @@
     {
         "id" : 1,
         "name": "Deutsch",
-        "niveau": "Gut (B2)"
+        "niveau": "B2"
     },
 
     {
         "id" : 2,
         "name": "Englisch",
-        "niveau": "Gut (B1)"
+        "niveau": "B1"
     },
 
     {
