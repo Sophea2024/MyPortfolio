@@ -27,6 +27,29 @@ const Courses = () => {
       </Row>
 
       {/* Table Body */}
+<Row className="border-bottom border-right border-left p-3 text-center">
+        <Col md={3}>
+          <div>Integration durch Qualifizirung</div>
+        </Col>
+        <Col md={3}>
+          <div>FRESKO e.v. Wiesbaden</div>
+        </Col>
+        <Col md={3}>
+          <div>01.2026 - jetzt</div>
+        </Col>
+        <Col md={3}>
+          <div>
+            <a
+              href="https://fresko.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              FRESKO e.v. verein für Bildungs- und Kulturabeit
+            </a>
+          </div>
+        </Col>
+      </Row>
+
       <Row className="border-bottom border-right border-left p-3 text-center">
         <Col md={3}>
           <div>Deutsch für Berufssprachkure B2-Niveau</div>
@@ -35,7 +58,7 @@ const Courses = () => {
           <div>FRESKO e.v. Wiesbaden</div>
         </Col>
         <Col md={3}>
-          <div>05.2025 - jetzt</div>
+          <div>05.2025 - 12.2025</div>
         </Col>
         <Col md={3}>
           <div>
